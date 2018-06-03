@@ -3,10 +3,6 @@ A simple app to manage your tasks built with Laravel framework 5.5
 
 ![Drag & Drop](/screenshots/drag.gif)
 
-## Demo video
-
-[Youtube](https://www.youtube.com/watch?v=dv5ykNiLdZM)
-
 ## Installation
 
 1- Clone the repository
@@ -68,10 +64,3 @@ php artisan serve
 ![View Notes](/screenshots/notes.jpg)
 
 ![Edit Profile](/screenshots/edit.jpg)
-
-
-
-## Ask a question?
-
-If you have any question, contact me via my email:
-> abdelazizmahmoud321@gmail.com

@@ -137,15 +137,14 @@
                             </div>
                             <!-- Developer -->
                             <footer class="developer">
-                                <p>Developed By <span class="name">Abdelaziz Selim</span></p>
-                                <div class="social">
-                                    <a href="https://github.com/abdelaziz321" title="Github"><i class="icon ion-social-github" aria-hidden="true"></i></a>
-                                    <a href="#" title="Codepen"><i class="icon ion-social-codepen" aria-hidden="true"></i></a>
-                                    <a href="#" title="Linkedin"><i class="icon ion-social-linkedin" aria-hidden="true"></i></a>
-                                    <a href="#" title="Twitter"><i class="icon ion-social-twitter" aria-hidden="true"></i></a>
-                                    <a href="#" title="Facebook"><i class="icon ion-social-facebook" aria-hidden="true"></i></a>
-                                </div>
-                            </footer>
+								<p>Developed By <span class="name">Arash Hatami</span></p>
+								<div class="social">
+									<a href="https://github.com/hatamiarash7" title="Github"><i class="icon ion-social-github" aria-hidden="true"></i></a>
+									<a href="https://linkedin.com/in/hatamiarash7/" title="Linkedin"><i class="icon ion-social-linkedin" aria-hidden="true"></i></a>
+									<a href="https://twitter.com/hatamiarash7" title="Twitter"><i class="icon ion-social-twitter" aria-hidden="true"></i></a>
+									<a href="https://facebook.com/hatamiarash7" title="Facebook"><i class="icon ion-social-facebook" aria-hidden="true"></i></a>
+								</div>
+							</footer>
                         </section>
                         <!-- /End Features Section-->
                     </div>

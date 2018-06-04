@@ -44,7 +44,7 @@ class RegisterController extends Controller
     }
 
     /**
-    * Show the application registration form.
+    * Show the application login form.
     *
     * @return \Illuminate\Http\Response
     */
@@ -53,6 +53,17 @@ class RegisterController extends Controller
         $users = str_pad(User::count(), 5, 0, STR_PAD_LEFT);
         return view('authanticate')->withUsers($users);
     }
+
+	/**
+	 * Show the application registration form.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function showRegistrationForm2()
+	{
+		$users = str_pad(User::count(), 5, 0, STR_PAD_LEFT);
+		return view('authanticate2')->withUsers($users);
+	}
 
     /**
      * Handle a registration request for the application.

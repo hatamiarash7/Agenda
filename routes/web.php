@@ -27,7 +27,8 @@ Route::post('user/update', 'UsersController@update');   #update user info
 Route::get('user/skin', 'UsersController@updateSkin');  #change the skin[board]
 
 // Authantication Routes
-Route::get('authanticate', 'Auth\RegisterController@showRegistrationForm')->name('login');   #sign in|up
+Route::get('authanticate', 'Auth\RegisterController@showRegistrationForm')->name('login');   #sign in
+Route::get('authanticate/signup', 'Auth\RegisterController@showRegistrationForm2')->name('register');   #sign up
 Route::post('authanticate/register', 'Auth\RegisterController@register');   #signup
 Route::post('authanticate/login', 'Auth\LoginController@login');            #signin
 Route::post('authanticate/logout', 'Auth\LoginController@logout');          #logout

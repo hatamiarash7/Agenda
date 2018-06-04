@@ -6,7 +6,7 @@
 @endsection
 
 @section('register')
-    @include('user.login')
+    @include('user.register')
 @endsection
 
 @section('scripts')
